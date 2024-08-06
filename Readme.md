@@ -1,4 +1,32 @@
 
+### Usage
+
+To use the calculator, run the compiled binary with the following syntax:
+
+```sh
+cargo run -- <number1> <operator> <number2>
+```
+
+For example:
+
+```sh
+cargo run -- 5 + 3
+```
+
+This will output:
+
+```
+5 + 3 = 8
+```
+
+### Supported Operators
+
+- `+` for addition
+- `-` for subtraction
+- `*`, `x`, `X` for multiplication
+- `/` for division
+
+----
 
 ### Code Overview
 This Rust program is a simple command-line calculator that takes three command-line arguments: two numbers and an operator. It performs the specified arithmetic operation on the numbers and prints the result.
