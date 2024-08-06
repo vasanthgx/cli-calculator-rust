@@ -90,7 +90,7 @@ fn output(first_number: f32, operator: char, second_number: f32, result: f32) ->
 
 ## Explanation on the nth() mehtod
 
-** The reason behind using nth(0) instead of nth(2) is due to how the nth method works in Rust. **
+**The reason behind using nth(0) instead of nth(2) is due to how the nth method works in Rust.**
 
 ### Understanding `nth` Method
 
